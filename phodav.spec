@@ -7,7 +7,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		phodav
-Version:	2.4
+Version:	2.5
 Release:	1
 Summary:	A WebDAV server using libsoup
 Group:		System/Servers
