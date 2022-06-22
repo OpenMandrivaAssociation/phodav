@@ -8,7 +8,7 @@
 
 Name:		phodav
 Version:	2.5
-Release:	4
+Release:	5
 Summary:	A WebDAV server using libsoup
 Group:		System/Servers
 License:	LGPLv2+
