@@ -19,6 +19,7 @@ BuildRequires:	pkgconfig(udev)
 BuildRequires:	systemd-units
 BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	pkgconfig(avahi-gobject)
+BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:	meson
 BuildRequires:	intltool
 BuildRequires:	asciidoc
