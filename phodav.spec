@@ -7,17 +7,17 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		phodav
-Version:	2.5
-Release:	5
+Version:	3.0
+Release:	1
 Summary:	A WebDAV server using libsoup
 Group:		System/Servers
 License:	LGPLv2+
 URL:		https://wiki.gnome.org/phodav
-Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+Source0:	https://download.gnome.org/sources/phodav/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(systemd)
 BuildRequires:	pkgconfig(udev)
 BuildRequires:	systemd-units
-BuildRequires:	libsoup-devel
+BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	pkgconfig(avahi-gobject)
 BuildRequires:	meson
 BuildRequires:	intltool
