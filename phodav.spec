@@ -1,4 +1,4 @@
-%define api 2.0
+%define api 3.0
 %define major 0
 
 %define libphodav %mklibname phodav %api %major
