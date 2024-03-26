@@ -66,9 +66,9 @@ with WebDAV. The service is announced over mDNS for clients to discover.
 %package -n     spice-webdavd
 Summary:        Spice daemon for the DAV channel
 Group:          System/Servers
-Requires(post): systemd-units
-Requires(preun): systemd-units
-Requires(postun): systemd-units
+Requires(post): systemd
+Requires(preun): systemd
+Requires(postun): systemd
 
 %description -n spice-webdavd
 The spice-webdavd package contains a daemon to proxy WebDAV request to
