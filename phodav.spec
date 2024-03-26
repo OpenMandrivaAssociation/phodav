@@ -16,7 +16,7 @@ URL:		https://wiki.gnome.org/phodav
 Source0:	https://download.gnome.org/sources/phodav/%{url_ver}/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(systemd)
 BuildRequires:	pkgconfig(udev)
-BuildRequires:	systemd-units
+BuildRequires:	systemd
 BuildRequires:	pkgconfig(libsoup-3.0)
 BuildRequires:	pkgconfig(avahi-gobject)
 BuildRequires:  pkgconfig(libxml-2.0)
